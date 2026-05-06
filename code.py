@@ -21,9 +21,7 @@ print("Training set:", X_train.shape[0], "samples")
 print("Test set    :", X_test.shape[0], "samples")
 
 # 3. Train model
-model = KNeighborsClassifier(n_neighbors=1git add .
-git commit -m "Try KNN with k=1"
-git push -u origin experiment-knn-1)
+model = KNeighborsClassifier(n_neighbors=1)
 model.fit(X_train, y_train)
 
 # 4. Predict
